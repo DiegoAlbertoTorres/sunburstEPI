@@ -131,7 +131,6 @@ d3.json("epidata.json", function(error, json) {
 	  .attr("x", 0)
 	  .attr("dy", "1em")
 	  .text(function(d) {
-			console.log(d);
 			if (d.depth==3 && d.name != special1 && d.name != special2 && d.name != special3 && d.name != special4)
 				return (d.name.split(" ")[2] || "") + " " + (d.name.split(" ")[3] || "");
 			else
@@ -224,9 +223,6 @@ function arcTween(d) {
       yd = d3.interpolate(y.domain(), [d.y, my]),
       yr = d3.interpolate(y.range(), [d.y ? 20 : 0, radius]);
   
-  console.log(y.domain());
-  console.log(y.range());
-  console.log(d.y);    
   return function(d) {
     return function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
   };
