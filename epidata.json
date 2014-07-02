@@ -1,0 +1,124 @@
+{
+	"name": "2014 EPI",
+	"color": "#3A3736",
+	"size": 1,
+	"children": [{
+		"name": "Environmental Health",
+		"color": "#cc3e00",
+		"children": [{
+			"name": "Health Impacts",
+			"color": "#ff9600",
+			"children": [{
+				"name": "Child Mortality",
+				"size": 6074
+			}]
+		},
+		{
+			"name": "Air Quality",
+			"color": "#f7c80b",
+			"children": [{
+				"name": "Household Air Quality",
+				"size": 2003
+			},
+			{
+				"name": "Air Pollution Avg. Exp. to PM2.5",
+				"size": 2003
+			},
+			{
+				"name": "Air Pollution PM2.5 Exceedance",
+				"size": 2003
+			}]
+		},
+		{
+			"name": "Water & Sanitation",
+			"color": "#ff6d24",
+			"children": [{
+				"name": "Access to Drinking Water",
+				"size": 2880
+			},
+			{
+				"name": "Access to Sanitation",
+				"size": 2880
+			}]
+		}]},
+		{
+		"name": "Ecosystem Vitality",
+		"color": "#006385",
+		"children": [{
+			"name": "Water Resources",
+			"color": "#7993f2",
+			"children": [{
+				"name": "Wastewater Treatment",
+				"size": 4000
+			}]
+		},
+		{
+			"name": "Agriculture",
+			"color": "#2e74ba",
+			"children": [{
+				"name": "Pesticide Regulation",
+				"size": 796
+			},
+			{
+				"name": "Agricultural Subsidies",
+				"size": 796
+			}]
+		},
+		{
+			"name": "Forests",
+			"color": "#009bcc",
+			"children": [{
+				"name": "Change in Forest Cover",
+				"size": 1550
+			}]
+		},
+		{
+			"name": "Fisheries",
+			"color": "#008c8c",
+			"children": [{
+				"name": "Fish Stocks",
+				"size": 901
+			},
+			{
+				"name": "Coastal Shelf Fishing Pressure",
+				"size": 901
+			}]
+		},
+		{
+			"name": "Biodiversity & Habitat",
+			"color": "#00ccaa",
+			"children": [{
+				"name": "Critical Habitat Protection",
+				"size": 1074
+			},
+			{
+				"name": "Marine Protected Areas",
+				"size": 1074
+			},
+			{
+				"name": "Global Biome Protection",
+				"size": 1074
+			},
+			{
+				"name": "Natural Biome Protection",
+				"size": 1074
+			}]
+		},
+		{
+			"name": "Climate & Energy",
+			"color": "#1cb85d",
+			"children": [{
+				"name": "Trend in Carbon Intensity",
+				"size": 1514
+			},
+			{
+				"name": "Change of Trend in Carbon Intensity",
+				"size": 1514
+			},
+			{
+				"name": "Trend in CO2 Emissions per KwH",
+				"size": 1514
+			}]
+		}]
+	}]	
+}
